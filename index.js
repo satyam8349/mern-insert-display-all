@@ -1,15 +1,4 @@
-// const express = require("express");
-// const app = express();
-// app.get("/home",(req,res)=>{
-//     res.send("<h1> this is my hoe paage!!</h1>");
-// })
 
-
-// app.get("/about",(req,res)=>{
-//     res.send("<h1> this is my about page!!</h1>");
-// })
-
-// app.listen(800);
 
 
 
@@ -31,19 +20,52 @@
 
 
 
-const express =require("express");
-const app = express();
- const PORT= 5000;
- const StuRoute =require("./routes/studentRoute")
+// const express =require("express");
+// const app = express();
+//  const PORT= 5000;
+//  const StuRoute =require("./routes/studentRoute")
 
 
  
- app.get("/" ,(req,res)=>{
-    res.send("<h1> homepage in screen ")
+//  app.get("/" ,(req,res)=>{
+//     res.send("<h1> homepage in screen ")
 
- })
- app.use("/students",StuRoute)
+//  })
+//  app.use("/students",StuRoute)
  
- app.listen(PORT,()=>{
-    console.log('SERVER RUN:${PORT}')
- })
+//  app.listen(PORT,()=>{
+//     console.log('SERVER RUN:${PORT}')
+//  })
+
+
+
+
+// const express=require("express");
+// const app=express();
+// const PORT=4000;
+// const StuRoute=require("./routes/studentRoute")
+
+// app.get("./",(req,res)=>{
+//    res.send("<h1> home page in screen!!!");
+// })
+
+// app.use("/teacher",StuRoute)
+// app.listen(PORT,()=>{
+//    console.log(`server run:${PORT}`)
+// })
+
+
+// const http=require("http");
+//  http.createServer((req,res)=>{
+//     res.write("<h1>hello friends this is my first mern program  ");
+//     res.end();
+//  }).listen(4000);
+ 
+  
+
+const express = require("express");
+const app=express();
+app.get("/",(req,res)=>{
+   res.send("<h1>home page in screen!!!");
+})
+app.listen(5000);
