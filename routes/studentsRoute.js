@@ -4,6 +4,7 @@ const StuController=require("../controller/studentController");
 
 
 route.get("/stuinfo",StuController.stuInfo);
+route.get("/datasaver",StuController.studataSaver);
 // route.get("/stufees",StuController.stuFees);
 // route.get("/sturesult",StuController.stuResult);
 
