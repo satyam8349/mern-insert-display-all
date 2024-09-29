@@ -1,9 +1,10 @@
-const mongoose =require("mongoose");
+// const mongoose =require("mongoose");
 
-const stuSchema=new mongoose.Schema({
-    rollno:Number,
-    name:String,
-    age:Number
-})
+// const stuSchema=new mongoose.Schema({
+//     rollno:Number,
+//     name:String,
+//     age:Number
+// })
 
-module.exports=mongoose.model("student",stuSchema);
+// module.exports=mongoose.model("student",stuSchema);
+
